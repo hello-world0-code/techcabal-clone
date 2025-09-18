@@ -16,11 +16,13 @@ header {
     height: 40px;
 }
 
-nav ul {
+.upbars-container{
     list-style: none;
     display: flex;
     margin: 0;
     justify-content: center;
+    color: #ffffff;
+    align-content: center;
 
 }
 
@@ -30,14 +32,16 @@ nav ul li {
     padding: 0;
     list-style: none;
     justify-content: center;
+    align-content: center;
 }
 
-nav ul li a {
+.upbars-flex {
     color: #ffffff;
     text-decoration: none;
     font-weight: normal;
     display: flex;
     justify-self:center;
+    align-content: center;
 }
 
 .icons a {
@@ -158,3 +162,11 @@ footer p {
     justify-content: center;
     align-items: center;
   }
+
+  a {
+      color: #f0371d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+   
